@@ -1,0 +1,14 @@
+name: ServerPatches
+version: '1.2'
+main: me.wolfpack206567.serverpatches.ServerPatches
+api-version: '1.21.3'
+softdepend: [ ProtocolLib, ProtocolSupport, ViaVersion, ViaBackwards, ViaRewind, Geyser-Spigot, PacketEvents, boosted-yaml ]
+commands:
+  spatches:
+    description: Adds the ability to reload ServerPatches config options!
+    usage: /spatches reload
+
+permissions:
+  serverpatches.command.reload:
+    description: Reloads the plugin!
+    default: op
